@@ -1,2 +1,2 @@
 # Design2LivePage
-Pixel perfect project from PSD design 
+Pixel perfect responsive (mobile first) project from PSD design 
