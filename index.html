@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisterBlog</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
+    <header class="main-header">
+        <div class="header-content container flex space-between">
+            <div class="logo flex align-center">Blogin</div>
+            <div class="nav-container flex">
+                <div class="main-btn-nav flex justify-center align-center curr-card-view">Journal</div>
+                <div class="main-btn-nav flex justify-center align-center">About</div>
+                <div class="main-btn-nav flex justify-center align-center">Work</div>
+                <div class="main-btn-nav flex justify-center align-center">Contact</div>
+            </div>
+        </div>
+        <button class="btn-menu" onclick="toggleMenu()">☰</button>
+    </header>
+    <main class="post-cards container">
+        <div class="post-card flex">
+            <img src="./images/img1.png" alt="">
+            <div class="card-content flex space-between align-center">
+                <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn btn-read">Continue Reading</button>
+            </div>
+        </div>
+        <div class="post-card flex">
+            <img src="./images/img2.png" alt="">
+            <div class="card-content flex space-between align-center">
+                <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn btn-read">Continue Reading</button>
+            </div>
+        </div>
+        <div class="post-card flex">
+            <img src="./images/img3.png" alt="">
+            <div class="card-content flex space-between align-center">
+                <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn btn-read">Continue Reading</button>
+            </div>
+        </div>
+        <div class="nav-pages-btns flex space-between">
+            <button>⬅PREVIOUS</button>
+            <button>NEXT➡</button>
+        </div>
+    </main>
+    <footer class="footer-container flex align-center">
+        <div class="logo">Blogin</div>
+        <p>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</p>
+        <div class="nav-icons flex">
+            <a class="fa facebook" href="#"></a>
+            <a class="fa twitter" href="#"></a>
+            <a class="fa instagram" href="#"></a>
+            <a class="fa be" href="#"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleMenu() {
+        document.body.classList.toggle('menu-open')
+    }
+</script>
+
+</html>
